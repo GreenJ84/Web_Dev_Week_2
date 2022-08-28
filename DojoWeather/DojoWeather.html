@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DojoWeather</title>
+    <link rel="stylesheet" href="DojoWeather.css">
+</head>
+<body style="margin:0px; padding: 0px;">
+
+    <!--top nav:  #a0c5f8 -->
+    <div class="topNav">
+
+        <!--Title-->
+        <div class="navTitle"><strong>DojoWeather</strong></div>
+
+        <!--Cities Links-->
+        <div class="cityLinks">
+            <a onclick="linkCity()" id="linkBurb" href="" title="Visit Burbank's Page">Burbank</a>
+            <a onclick="linkCity()" id="linkChic" href="">Chicago</a>
+            <a onclick="linkCity()" id="linkDall" href="">Dallas</a>
+        </div>
+
+    </div>
+
+    <!--Page Content-->
+    <div class="contentHolder">
+
+        <!--blank white-->
+        <div class="blankSpace"></div>
+
+        <!--Weather Content-->
+        <div class="weatherContent">
+
+            <!--City Nav Bar-->
+            <div class="cityNav">
+
+                <!--City Title-->
+                <div class="cityTitle">San Jose</div>
+
+                <!--Temperature Setting selector-->
+                <div class="cityWeather">show temperature in 
+                    <select onchange="changeMetric(this)" name="temp" id="tempSet">
+                        <option value="celsius">°C</option>
+                        <option value="fahrenheit">°F</option>
+                    </select>
+                </div>
+            </div>
+
+            <!--Weather Forecast-->
+            <div class="cityForecast">
+
+                <!--Today-->
+                <div class="days">
+                    <div class="dayTitle">Today</div>
+                    <img class="dayImg" src="/Users/jessegreenough/Documents/Coding-Dojo/Web_Dev_Wk2/DojoWeather/assets/some_rain.jpg" alt="rainy">
+                    <div class="description">some rain</div>
+                    <div class="highLow">
+                        <div class="high"><div id="high1">24</div>°</div>
+                        <div class="low"><div id="low1">18</div>°</div>
+                    </div>
+                </div>
+
+                <!--Tomorrow-->
+                <div class="days">
+                    <div class="dayTitle">Tomorrow</div>
+                    <img class="dayImg" src="/Users/jessegreenough/Documents/Coding-Dojo/Web_Dev_Wk2/DojoWeather/assets/some_sun.png" alt="sunny">
+                    <div class="description">some sun</div>
+                    <div class="highLow">
+                        <div class="high"><div id="high2">27</div>°</div>
+                        <div class="low"><div id="low2">19</div>°</div>
+                    </div>
+                </div>
+
+                <!--Friday-->
+                <div class="days">
+                    <div class="dayTitle">Friday</div>
+                    <img class="dayImg" src="/Users/jessegreenough/Documents/Coding-Dojo/Web_Dev_Wk2/DojoWeather/assets/some_clouds.png" alt="cloudy">
+                    <div class="description">some clouds</div>
+                    <div class="highLow">
+                        <div class="high"><div id="high3">21</div>°</div>
+                        <div class="low"><div id="low3">16</div>°</div>
+                    </div>
+                </div>
+
+                <!--Saturday-->
+                <div class="days">
+                    <div class="dayTitle">Saturday</div>
+                    <img class="dayImg" src="/Users/jessegreenough/Documents/Coding-Dojo/Web_Dev_Wk2/DojoWeather/assets/some_sun.png" alt="sunny">
+                    <div class="description">some sun</div>
+                    <div class="highLow">
+                        <div class="high"><div id="high4">26</div>°</div>
+                        <div class="low"><div id="low4">21</div>°</div>
+                    </div>
+                </div>
+            </div>
+            <div class="alsoBlank"></div>
+            <!--cookie Pop-Up-->
+            <div id="cookie">
+                <img class="cookieImg" src="/Users/jessegreenough/Documents/Coding-Dojo/Web_Dev_Wk2/DojoWeather/assets/cookie.png" alt="cookie">
+                <div class="cookieMessage">
+                    <div class="alert">Stop! Cookie Time</div>
+                    <div class="message">We use cookies (sadly not the edible ones) to personalize content and ads, to provide social media features and to analyse our traffic. <a href="">Read More...</a></div>
+                </div>
+                <div class="button"><button onclick="acceptTerms()" id="popUp" type="button" value="I Accept">I Accept</button></div>
+                
+            </div>
+
+        </div>
+
+        <!--blank white-->
+        <div class="blankSpace"></div>
+
+    </div>
+    <script src="DojoWeather.js"></script>
+</body>
+</html>

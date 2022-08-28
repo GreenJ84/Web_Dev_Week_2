@@ -1,0 +1,207 @@
+            /*Part 1*/
+
+/* .box{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    width: 50%;
+    height: 350px;
+    position: absolute; left: 60px;
+    align-items:center;
+    justify-content: flex-start;
+    margin: 0px;
+    padding: 0px;
+    overflow: scroll;
+}
+
+.details{
+width: 100%;
+font-size: 40px;
+display: flex;
+align-items: center;
+justify-content: space-between;
+position: relative;
+}
+.title{
+    margin: 0px;
+    padding: 0px 0px 0px 10px;
+    position: relative;
+    top: 10px; left: 30px;
+}
+
+.display{
+    font-size: 30px;
+    position: relative;
+    top: 10px;
+    margin: 50px;
+}
+#var{
+    font-style: normal;
+}
+
+.x{
+    padding-right: 10px;
+}
+.button{
+    background-color: #fed966;
+    color: black;
+    border: 2px solid black;
+    box-shadow: 2px 2px 2px 1px black;
+    height: 30px;
+    width: 200%;
+    align-self: flex-start;
+    position: relative;
+    right: 50px;
+}
+.content{
+    position: relative;
+    top: 20px;
+    font-size: 50px;
+    padding: 0px 15px;
+} */
+
+
+
+
+
+
+            /*PART 2*/
+
+.body{
+    display: flex;
+    margin: 0px;
+    padding: 0px;
+
+}
+
+    .blank{
+        width: 15%;
+        height: 800px;
+    }
+
+    .mainC{
+        width: 70%;
+        height: 800px;
+        margin: 0px;
+        padding: 0px;
+    }
+
+        .header{
+            background-color: black;
+            color: white;
+            display: flex;
+            align-items: center;
+            justify-content: flex-start;
+            height:80px;
+            font-size: 60px;
+        }
+
+        .feedBar{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height:80px;
+            font-size: 70px;
+        }
+
+        .feed{
+            display: flex;
+            column-gap: 20px;
+        }
+
+            .personal{
+                width: 30%;
+            }
+
+                .persBox{
+                    border: 3px solid black;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    justify-content: space-around;
+                    height: 500px;
+                }
+
+                    .img{
+                        height: 120px;
+                        width: 120px;
+                    }
+
+                    .link{
+                        font-size: 40px;
+                    }
+
+                    .name{
+                        font-size: 60px;
+                    }
+
+
+            .friends{
+                width: 70%;
+                display:flex;
+                flex-direction: column;
+                row-gap: 15px;
+            }
+
+                .post{
+                    display: flex;
+                    flex-direction: column;
+                    border: 3px solid black;
+                    width: 100%;
+                    height: 300px;
+                    padding: 0px;
+                    overflow: scroll;
+                }
+
+                    .topBar{
+                    width: 100%;
+                    font-size: 50px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+                    position: relative;
+                    padding-top: 20px;
+                    }
+
+                        .title{
+                            margin: 0px;
+                            padding: 0px 0px 0px 10px;
+                            position: relative;
+                            left: 30px;
+                        }
+
+                        .display{
+                            font-size: 40px;
+                            position: relative;
+                            right:20px;
+                            margin: 0px 50px;
+                        }
+
+                            #var{
+                                font-style: normal;
+                            }
+
+                        .buttonX{
+                            padding-right: 10px;
+                        }
+
+                            .button{
+                                background-color: #fed966;
+                                color: black;
+                                font-size: 20px;
+                                border: 2px solid black;
+                                box-shadow: 2px 2px 2px 1px black;
+                                height: 50px;
+                                width: 200%;
+                                align-self: flex-start;
+                                position: relative;
+                                right: 100px;
+                                bottom: 10px;
+                            }
+
+                    .content{
+                        position: relative;
+                        top: 20px;
+                        font-size: 40px;
+                        padding: 0px 60px;
+                    }

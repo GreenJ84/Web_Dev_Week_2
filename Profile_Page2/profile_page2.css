@@ -1,0 +1,226 @@
+/*Nav Bar Styling*/
+*{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.nav{
+    display: flex;
+    padding-left: 12.5%;
+    position: initial;
+    background-color: #000;           
+    box-shadow: 0px .5px 4px 4px black;
+    overflow: hidden;
+    width: 100%;
+    justify-content: flex-start;
+} 
+#btn{
+    justify-self: flex-end;
+    align-self: center;
+    height:30px;
+    width: 80px;
+    color: white;
+    background-color: #14a2b8;
+    border: 2px groove black;
+    box-shadow: 2px 2px black;
+}
+.nav-title{
+margin: auto 0px auto 20px;
+color: white;
+}
+.nav-links{
+    display: flex;
+    color: white;
+    list-style-type: none;
+}
+.active{
+    font-weight: bolder;
+}
+li, #btn{
+    margin: 1pc;
+}
+#btn{
+    position: absolute;
+    right: 12.5%;
+}
+
+/* Body Styling */
+.body{
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    height: 1000px;
+}
+.blank{ /*side panels for display*/
+    flex: 1;
+}
+/* Styling the mian column info */
+.mainC{
+    flex: 4;
+    padding: 40px 10px 10px 10px;
+    position: relative;
+}
+.userCard{
+background-color: #fff;
+position:relative;
+min-height: 200px;
+max-height: 280px;
+overflow: scroll;
+padding: 40px 0px 0px;
+border-left: 5px solid #cdcdcd;
+border-right: 5px solid #cdcdcd;
+border-bottom: 5px solid #cdcdcd;
+}
+.bbar{
+height:50px;
+margin: 0px 0px 0px 0px;
+background-color: #14a2b8;
+display: flex;
+position: relative;
+font-size: larger;
+}
+.icon{
+position: absolute;
+top: 65px;
+left: 52.5px;
+height: 50px;
+width: 50px;
+z-index: 2;
+}
+.circle{
+position: absolute;
+top: 63px;
+left: 50px;
+height: 55px;
+width: 55px;
+background-color: #fff;
+border-radius: 50%;
+z-index: 1;
+}
+.info{
+padding-left: 40px;
+margin-bottom: 0px;
+}
+.location{
+height: 15px;
+width: 10px;
+margin-right: 20px;
+margin-top: 0px;
+margin-bottom: 0px;
+}
+.gear{
+height: 15px;
+width: 15px;
+margin-right: 20px;
+margin-top: 0px;
+}
+.education{
+background-color: #fff;
+min-height: 200px;
+max-height: 600px;
+display: flex;
+flex-direction: column;
+overflow: scroll;
+border: 5px solid #cdcdcd;
+}
+.bbar2{
+height:20px;
+margin: 40px 0px 0px 0px;
+padding: 15px 0px 15px 20px;
+background-color: #333333;
+font-size: larger;
+color: whitesmoke;
+display: flex;
+align-items: center;
+justify-content: flex-start;
+}
+.bbar3{
+    height:40px;
+    margin: 0px;
+    padding: 5px 0px 5px 20px;
+    font-size: larger;
+    background-color: #333333;
+    color: whitesmoke;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+/* Styling the Sub Column info*/
+.subC{
+    flex:2;
+    padding: 40px 10px 10px 10px;
+}
+.icon2{
+    height: 40px;
+    width: 40px;
+    margin-right: 15px;
+}
+.icon3{
+    height: 40px;
+    width: 40px;
+}
+.friendBar1{
+    padding: 20px;
+    font-size: larger;
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: flex-start;
+}
+.request{
+    min-height: 160px;
+    max-height: 200px;
+    background-color: #fff;
+    overflow: scroll;
+    border: 5px solid #cdcdcd;
+}
+#notify1{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #cccccc;
+    color: #333333;
+    margin-right: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#notify2{
+    width: 75px;
+    height: 25px;
+    border-radius: 46%;
+    background-color: #cccccc;
+    color: #333333;
+    margin-right: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.friends{
+    min-height: 300px;
+    max-height: 500px;
+    background-color: #fff;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    overflow: scroll;
+    border: 5px solid #cdcdcd;
+}
+.friendBar2, .view{
+    padding: 20px;
+    font-size: larger;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.view{
+    background-color: #fff;
+    border-left: 5px solid #cdcdcd;
+    border-right: 5px solid #cdcdcd;
+    border-bottom: 5px solid #cdcdcd;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding-left: 20px;
+}
+a:visited{
+    color:blue;
+}

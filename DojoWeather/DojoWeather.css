@@ -1,0 +1,190 @@
+.topNav{
+    width: 100%;
+    height: 120px;
+    background-color: #a0c5f8;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 15%;
+    box-sizing: border-box;
+}
+
+    .navTitle{
+    font-size: 80px;
+    }
+
+    .cityLinks{
+    font-size: 45px;
+    display: flex;
+    column-gap: 40px;
+    }
+
+    #linkBurb, #linkChic, #linkDall{
+        text-decoration: none;
+        color: white;
+    }
+
+
+.contentHolder{
+    display: flex;
+}
+
+    .blankSpace{
+        width: 15%;
+    }
+
+    .weatherContent{
+        display: flex;
+        flex-direction: column;
+        row-gap: 30px;
+        width: 70%;
+    }
+
+        .cityNav{
+            height: 80px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            border-bottom: .5px solid black;
+            box-shadow: 0px 1px 0px px black;
+            padding: 10px 0px;
+        }
+
+            .cityTitle{
+                font-size: 60px;
+            }
+
+            .cityWeather{
+                font-size: 40px;
+                align-content: center;
+            }
+
+            #tempSet{
+                height:35px;
+                width:60px;
+                font-size: 30px;
+            }
+
+
+        .cityForecast{
+            display: flex;
+            column-gap: 15px;
+
+        }
+
+            .days{
+                width: 24%;
+                height: 500px;
+                background-color: #eeeeee;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: space-around;
+            }
+
+                .dayTitle{
+                    font-weight: bold;
+                    font-size: 45px;
+                }
+
+                .dayImg{
+                    height: 200px;
+                    width: 200px;
+                    margin: 0px;
+                    border-radius: 50%;
+                }
+
+                .description{
+                    font-size: 20px;
+                }
+
+                .highLow{
+                    display: flex;
+                    align-items: center;
+                    justify-content:space-between;
+                    padding: 0px 20px;
+                    width: 100%;
+                    height: 15%;
+                    box-sizing: border-box;
+                    padding: 0px 40px;
+                }
+
+                    .high{
+                        color: #cf2b28;
+                        font-size: 30px;
+                        font-weight: bold;
+                        display: flex;
+                    }
+
+                    .low{
+                        color: #2b78e4;
+                        font-size: 30px;
+                        font-weight: bold;
+                        display: flex;
+                    }
+
+        .alsoBlank{
+            width: 70%;
+            height:1000px;
+
+        }
+
+
+        #cookie{
+            display: flex;
+            column-gap: 10px;
+            background-color: #eeeeee;
+            width: 70%;
+            height:150px;
+            justify-self: center;
+            position: fixed;
+            bottom: 0px;
+            border: 2px solid black;
+        }
+
+            .cookieImg{
+                width: 15%;
+                height: 150px;
+            }
+
+            .alert{
+            font-weight: bold;
+            }
+            
+            .cookieMessage{
+                display: flex;
+                flex-direction: column;
+                align-items: flex-start;
+                justify-content: center;
+                width: 65%;
+            }
+
+                .alert{
+                    font-size: 40px;
+                    font-weight: bold;
+                }
+
+                .message{
+                    font-size: 30px;
+                }
+
+            .button{
+                width:20%;
+                padding: 0px 10px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+
+                #popUp{
+                    align-self: center;
+                    background-color: #a0c5f8;
+                    border: 1px solid black;
+                    box-shadow: 3px 3px 2px 0px black;
+                    font-size: 20px;
+                    height: 40px;
+                    width:140px;
+                    box-sizing: border-box;
+                    padding: 0px 10px;
+                }
