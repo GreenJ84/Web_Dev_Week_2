@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/Users/jessegreenough/Documents/Coding-Dojo/Web_Dev_Wk2/Profile_Page2/profile_page2.css">
+    <link rel="stylesheet" href="profile_page2.css">
     <title>Profile Page</title>
 </head>
 <body style="padding: 0px; margin: 0px;">
@@ -32,7 +32,7 @@
             <div class="bbar"></div>
             <!--Profile icon w/ White backdrop-->
             <div class="circle"></div>
-            <img class="icon" src="/Users/jessegreenough/Documents/Coding-Dojo/Web_Dev_Wk1/icons/user-circle.jpg" alt="Profile icon">
+            <img class="icon" src="./icons/user-circle.jpg" alt="Profile icon">
             <!--user profile card-->
             <div class="userCard">
                 <!--Profile Conent-->
@@ -40,13 +40,13 @@
                     <!--Name-->
                     <h1 id="name" style="margin-top:0px; margin-bottom:0px;">Jane Doe</h1>
                     <!--Location-->
-                    <h3><img class="location" src="/Users/jessegreenough/Documents/Coding-Dojo/Web_Dev_Wk1/icons/map-marker.jpg" alt="location-icon">Seattle</h3>
+                    <h3><img class="location" src="./icons/map-marker.jpg" alt="location-icon">Seattle</h3>
                     <!--Details-->
                     <pre>Developer | Engineer | Problem Solver
 Master of shadows and the Internet!
                     </pre>
                     <!--edit link w/ Icon-->
-                    <h4 onclick='changeName()'><img class="gear" src="/Users/jessegreenough/Documents/Coding-Dojo/Web_Dev_Wk1/icons/gear.jpg" alt="location-icon"><a onclick='changeName()' href="              ">edit profile</a></h4>
+                    <h4 onclick='changeName(e);'><img class="gear" src="./icons/gear.jpg" alt="location-icon"><a onclick='changeName()' href="              ">edit profile</a></h4>
                     <br>
                     <br>
                     <br>
@@ -113,63 +113,63 @@ Master of shadows and the Internet!
                 <!--Request 1-->
                 <div id="request1" class="friendBar1">
                     <!--face icon--> 
-                    <img src="/Users/jessegreenough/Documents/Coding-Dojo/Web_Dev_Wk1/images/todd-s.jpg" alt="Profile Icon" class="icon2">
+                    <img src="./images/todd-s.jpg" alt="Profile Icon" class="icon2">
                     <!--Name-->
                     Todd E
                     <div style="position:absolute; right: 20px;">
                         <!--check-->
-                        <img onclick="approveRequest(request1, notify1, notify2)" class="icon3" src="/Users/jessegreenough/Documents/Coding-Dojo/Web_Dev_Wk1/icons/accept-circle.jpg" alt="check">
+                        <img onclick="approveRequest(request1, notify1, notify2)" class="icon3" src="./icons/accept-circle.jpg" alt="check">
                         <!--x-->
-                        <img onclick="removeRequest(request1, notify1)" class="icon3" src="/Users/jessegreenough/Documents/Coding-Dojo/Web_Dev_Wk1/icons/close-circle.jpg" alt="X">
+                        <img onclick="removeRequest(request1, notify1)" class="icon3" src="./icons/close-circle.jpg" alt="X">
                     </div>
                 </div>
                 <!--request 2-->
                 <div id="request2" class="friendBar1">
                     <!--face icon--> 
-                    <img src="/Users/jessegreenough/Documents/Coding-Dojo/Web_Dev_Wk1/images/phil-s.jpg" alt="Profile Icon" class="icon2">
+                    <img src="./images/phil-s.jpg" alt="Profile Icon" class="icon2">
                     <!--Name-->
                     Phil K
                     <div style="position:absolute; right: 20px;">
                         <!--check-->
-                        <img onclick="approveRequest(request2, notify1, notify2)" class="icon3" src="/Users/jessegreenough/Documents/Coding-Dojo/Web_Dev_Wk1/icons/accept-circle.jpg" alt="check">
+                        <img onclick="approveRequest(request2, notify1, notify2)" class="icon3" src="./icons/accept-circle.jpg" alt="check">
                         <!--x-->
-                        <img onclick="removeRequest(request2, notify1)" class="icon3" src="/Users/jessegreenough/Documents/Coding-Dojo/Web_Dev_Wk1/icons/close-circle.jpg" alt="X">
+                        <img onclick="removeRequest(request2, notify1)" class="icon3" src="./icons/close-circle.jpg" alt="X">
                     </div>
                 </div>
                 <div id="request3" class="friendBar1">
                     <!--face icon--> 
-                    <img src="/Users/jessegreenough/Documents/Coding-Dojo/Web_Dev_Wk1/icons/user-circle.jpg" alt="Profile Icon" class="icon2">
+                    <img src="./icons/user-circle.jpg" alt="Profile Icon" class="icon2">
                     <!--Name-->
                     Tom K
                     <div style="position:absolute; right: 20px;">
                         <!--check-->
-                        <img onclick="approveRequest(request3, notify1, notify2)" class="icon3" src="/Users/jessegreenough/Documents/Coding-Dojo/Web_Dev_Wk1/icons/accept-circle.jpg" alt="check">
+                        <img onclick="approveRequest(request3, notify1, notify2)" class="icon3" src="./icons/accept-circle.jpg" alt="check">
                         <!--x-->
-                        <img onclick="removeRequest(request3, notify1)" class="icon3" src="/Users/jessegreenough/Documents/Coding-Dojo/Web_Dev_Wk1/icons/close-circle.jpg" alt="X">
+                        <img onclick="removeRequest(request3, notify1)" class="icon3" src="./icons/close-circle.jpg" alt="X">
                     </div>
                 </div>
                 <div id="request4" class="friendBar1">
                     <!--face icon--> 
-                    <img src="/Users/jessegreenough/Documents/Coding-Dojo/Web_Dev_Wk1/icons/user-circle.jpg" alt="Profile Icon" class="icon2">
+                    <img src="./icons/user-circle.jpg" alt="Profile Icon" class="icon2">
                     <!--Name-->
                     Steve J
                     <div style="position:absolute; right: 20px;">
                         <!--check-->
-                        <img onclick="approveRequest(request4, notify1, notify2)" class="icon3" src="/Users/jessegreenough/Documents/Coding-Dojo/Web_Dev_Wk1/icons/accept-circle.jpg" alt="check">
+                        <img onclick="approveRequest(request4, notify1, notify2)" class="icon3" src="./icons/accept-circle.jpg" alt="check">
                         <!--x-->
-                        <img onclick="removeRequest(request4, notify1) "class="icon3" src="/Users/jessegreenough/Documents/Coding-Dojo/Web_Dev_Wk1/icons/close-circle.jpg" alt="X">
+                        <img onclick="removeRequest(request4, notify1) "class="icon3" src="./icons/close-circle.jpg" alt="X">
                     </div>
                 </div>
                 <div id="request5" class="friendBar1">
                     <!--face icon--> 
-                    <img src="/Users/jessegreenough/Documents/Coding-Dojo/Web_Dev_Wk1/icons/user-circle.jpg" alt="Profile Icon" class="icon2">
+                    <img src="./icons/user-circle.jpg" alt="Profile Icon" class="icon2">
                     <!--Name-->
                     Agustus D
                     <div style="position:absolute; right: 20px;">
                         <!--check-->
-                        <img onclick="approveRequest(request5, notify1, notify2)" class="icon3" src="/Users/jessegreenough/Documents/Coding-Dojo/Web_Dev_Wk1/icons/accept-circle.jpg" alt="check">
+                        <img onclick="approveRequest(request5, notify1, notify2)" class="icon3" src="./icons/accept-circle.jpg" alt="check">
                         <!--x-->
-                        <img onclick="removeRequest(request5, notify1)" class="icon3" src="/Users/jessegreenough/Documents/Coding-Dojo/Web_Dev_Wk1/icons/close-circle.jpg" alt="X">
+                        <img onclick="removeRequest(request5, notify1)" class="icon3" src="./icons/close-circle.jpg" alt="X">
                     </div>
                 </div>
             </div>
@@ -180,46 +180,46 @@ Master of shadows and the Internet!
             <div class="friends">
                 <!--Friend 1 w Icon-->
                 <div class="friendBar2">
-                    <img src="/Users/jessegreenough/Documents/Coding-Dojo/Web_Dev_Wk1/images/adrien-s.jpg" alt="Profile Icon" class="icon2">Adrien D
+                    <img src="./images/adrien-s.jpg" alt="Profile Icon" class="icon2">Adrien D
                 </div>
                 <!--Friend 2 w Icon-->
                 <div class="friendBar2">
-                    <img src="/Users/jessegreenough/Documents/Coding-Dojo/Web_Dev_Wk1/images/anne-s.jpg" alt="Profile Icon" class="icon2">Anne J
+                    <img src="./images/anne-s.jpg" alt="Profile Icon" class="icon2">Anne J
                 </div>
                 <!--Friend 3 w Icon-->
                 <div class="friendBar2">
-                    <img src="/Users/jessegreenough/Documents/Coding-Dojo/Web_Dev_Wk1/images/alayne-s.jpg" alt="Profile Icon" class="icon2">Alayne T
+                    <img src="./images/alayne-s.jpg" alt="Profile Icon" class="icon2">Alayne T
                 </div>
                 <!--Friend 4 w Icon-->
                 <div class="friendBar2">
-                    <img src="/Users/jessegreenough/Documents/Coding-Dojo/Web_Dev_Wk1/images/arry-s.jpg" alt="Profile Icon" class="icon2">Arry V
+                    <img src="./images/arry-s.jpg" alt="Profile Icon" class="icon2">Arry V
                 </div>
                 <!--Friend 5 w Icon-->
                 <div class="friendBar2">
-                    <img src="/Users/jessegreenough/Documents/Coding-Dojo/Web_Dev_Wk1/images/jane-m.jpg" alt="Profile Icon" class="icon2">Jane M
+                    <img src="./images/jane-m.jpg" alt="Profile Icon" class="icon2">Jane M
                 </div>
                 <!--Friend 6 w Icon-->
                 <div class="friendBar2">
-                    <img src="/Users/jessegreenough/Documents/Coding-Dojo/Web_Dev_Wk1/icons/user-circle.jpg" alt="Profile Icon" class="icon2">Connor P
+                    <img src="./icons/user-circle.jpg" alt="Profile Icon" class="icon2">Connor P
                 </div>
                 <!--Friend 7 w Icon-->
                 <div class="friendBar2">
-                    <img src="/Users/jessegreenough/Documents/Coding-Dojo/Web_Dev_Wk1/icons/user-circle.jpg" alt="Profile Icon" class="icon2">Nick M
+                    <img src="./icons/user-circle.jpg" alt="Profile Icon" class="icon2">Nick M
                 </div >
                 <div class="friendBar2">
-                    <img src="/Users/jessegreenough/Documents/Coding-Dojo/Web_Dev_Wk1/icons/user-circle.jpg" alt="Profile Icon" class="icon2">Greg Ory
+                    <img src="./icons/user-circle.jpg" alt="Profile Icon" class="icon2">Greg Ory
                 </div >
                 <div class="friendBar2">
-                    <img src="/Users/jessegreenough/Documents/Coding-Dojo/Web_Dev_Wk1/icons/user-circle.jpg" alt="Profile Icon" class="icon2">Ramond T
+                    <img src="./icons/user-circle.jpg" alt="Profile Icon" class="icon2">Ramond T
                 </div>
                 <div class="friendBar2">
-                    <img src="/Users/jessegreenough/Documents/Coding-Dojo/Web_Dev_Wk1/icons/user-circle.jpg" alt="Profile Icon" class="icon2">Simon Says
+                    <img src="./icons/user-circle.jpg" alt="Profile Icon" class="icon2">Simon Says
                 </div >
                 <div class="friendBar2">
-                    <img src="/Users/jessegreenough/Documents/Coding-Dojo/Web_Dev_Wk1/icons/user-circle.jpg" alt="Profile Icon" class="icon2">Mr. T
+                    <img src="./icons/user-circle.jpg" alt="Profile Icon" class="icon2">Mr. T
                 </div>
                 <div class="friendBar2">
-                    <img src="/Users/jessegreenough/Documents/Coding-Dojo/Web_Dev_Wk1/icons/user-circle.jpg" alt="Profile Icon" class="icon2">Will I Am
+                    <img src="./icons/user-circle.jpg" alt="Profile Icon" class="icon2">Will I Am
                 </div >
             </div>
             <div class="view"><a href="">View More</a></div>

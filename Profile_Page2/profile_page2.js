@@ -1,4 +1,4 @@
-function changeName(){
+function changeName(e) {
     var names = [
         'Jane Doe',
         'Steve Martin',
@@ -8,7 +8,6 @@ function changeName(){
         'James Johnson'
 ];
     var i = Math.round(Math.random()* (names.length-1))
-
     document.getElementById('name').innerText = names[i];
 }
 
