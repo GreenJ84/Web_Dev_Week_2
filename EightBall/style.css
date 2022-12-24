@@ -2,6 +2,21 @@
     font-family: 'Koulen', cursive;
 }
 
+body{
+    background: rgb(238, 253, 238);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+
+.container{
+    background-color: grey;
+    padding: 5vw;
+    border-radius: 10px;
+    box-shadow: 0 -3px 4px 2px black, 0 3px 4px 2px black;
+}
+
 #title {
     text-align: center;
     color: white;
